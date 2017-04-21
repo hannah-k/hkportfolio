@@ -6,13 +6,26 @@ body {
   margin-top: 100px;
   border-radius: 8px;
   text-align: center;
-  font-family: ;
+  font-family: Advent Pro;
 }
-
 #portfolio-photo {
   display: block;
   margin: auto;
-  width: 60%;
+  width: 64%;
   border-radius: 50%;
-
+  border: 3px solid #004d3b;
+  margin-bottom: 15px;
+}
+.intro-words {
+  font-weight: bold;
+  font-size:
+}
+.jumbotron {
+  position: relative;
+  margin-top: 100px;
+  background: url("http://cdn.c.photoshelter.com/img-get2/I0000hDCP.rvX68Q/fit=1000x750/am-140206-53531.jpg") center;
+  /*width: 100%auto;*/
+  background-size:cover;
+  /*overflow: hidden;*/
+  color: #fff;
 }
