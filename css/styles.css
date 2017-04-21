@@ -12,12 +12,47 @@ body {
 }
 .day {
   float: right;
-  background-color: #e1eaea;
+  background-color: #f0f5f5;
   margin: 12px;
+  padding: 8px 4px 4px 8px;
   border-radius: 8px;
   border: 2px solid black;
   font-family: sans-serif;
   color: #000;
+}
+.weekday {
+  font-weight: bold;
+}
+.day-heading{
+  text-decoration: underline;
+  text-decoration-color: #004d3b;
+  padding: 12px;
+}
+.thumbnail {
+  margin-bottom: 20px;
+  border: 1px solid #004d3b;
+  border-radius: 12px;
+  padding: 5px;
+  width: 125px;
+  height: 150px;
+}
+button {
+  margin: 5px 16px 5px;
+}
+.wiki-thumbnail {
+  display: block;
+  margin: auto;
+}
+#wikipedia-project {
+  text-align: center;
+}
+h4 {
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: #004d3b;
+}
+.lang-list {
+  list-style-type: none;
 }
 #about-me {
   background-color: #e6fff9;
