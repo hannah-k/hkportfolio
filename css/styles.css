@@ -2,7 +2,7 @@ body {
   background-color: #00cc99;
 }
 .jumbotron {
-    position: relative;
+    position: top;
     margin-top: 100px;
     background: url("http://cdn.c.photoshelter.com/img-get2/I0000hDCP.rvX68Q/fit=1000x750/am-140206-53531.jpg") center;
     /*width: 100%auto;*/
@@ -11,7 +11,7 @@ body {
     color: #fff;
 }
 .day {
-  float: right;
+  float: left;
   background-color: #f0f5f5;
   margin: 12px;
   padding: 8px 4px 4px 8px;
@@ -47,9 +47,13 @@ button {
   text-align: center;
 }
 h4 {
+  text-align: center;
   font-weight: bold;
   text-decoration: underline;
   text-decoration-color: #004d3b;
+}
+.project {
+  text-align: center;
 }
 .lang-list {
   list-style-type: none;
@@ -57,6 +61,7 @@ h4 {
 #about-me {
   background-color: #e6fff9;
   margin-top: 100px;
+  padding-bottom: 5px;
   border-radius: 8px;
   text-align: center;
   font-family: sans-serif;
