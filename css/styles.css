@@ -1,12 +1,31 @@
 body {
   background-color: #00cc99;
 }
+.jumbotron {
+    position: relative;
+    margin-top: 100px;
+    background: url("http://cdn.c.photoshelter.com/img-get2/I0000hDCP.rvX68Q/fit=1000x750/am-140206-53531.jpg") center;
+    /*width: 100%auto;*/
+    background-size:cover;
+    /*overflow: hidden;*/
+    color: #fff;
+}
+.day {
+  float: right;
+  background-color: #e1eaea;
+  margin: 12px;
+  border-radius: 8px;
+  border: 2px solid black;
+  font-family: sans-serif;
+  color: #000;
+}
 #about-me {
   background-color: #e6fff9;
   margin-top: 100px;
   border-radius: 8px;
   text-align: center;
-  font-family: Advent Pro;
+  font-family: sans-serif;
+  border: 2px solid #004d3b;
 }
 #portfolio-photo {
   display: block;
@@ -18,14 +37,5 @@ body {
 }
 .intro-words {
   font-weight: bold;
-  font-size:
-}
-.jumbotron {
-  position: relative;
-  margin-top: 100px;
-  background: url("http://cdn.c.photoshelter.com/img-get2/I0000hDCP.rvX68Q/fit=1000x750/am-140206-53531.jpg") center;
-  /*width: 100%auto;*/
-  background-size:cover;
-  /*overflow: hidden;*/
-  color: #fff;
+  font-size: 20px;
 }
