@@ -19,7 +19,7 @@ body {
   float: left;
   background-color: #f0f5f5;
   margin: 12px;
-  padding: 8px 4px 4px 8px;
+  padding: 8px 8px 8px 8px;
   border-radius: 8px;
   border: 2px solid black;
   font-family: sans-serif;
@@ -64,7 +64,7 @@ h4.day4-2 {
   text-decoration: underline;
   text-decoration-color: #004d3b;
 }
-.project {
+#tuesday-project {
   text-align: center;
 }
 ul {
