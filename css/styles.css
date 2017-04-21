@@ -12,28 +12,28 @@ body {
   width: 100%
 }
 .jumbotron {
-    position: top;
-    margin-top: 100px;
-    background: url("http://cdn.c.photoshelter.com/img-get2/I0000hDCP.rvX68Q/fit=1000x750/am-140206-53531.jpg") center;
-    /*width: 100%auto;*/
-    background-size:cover;
-    /*overflow: hidden;*/
-    color: #fff;
+  position: top;
+  margin-top: 100px;
+  background: url("http://cdn.c.photoshelter.com/img-get2/I0000hDCP.rvX68Q/fit=1000x750/am-140206-53531.jpg") center;
+  width: 100%;
+  background-size:cover;
+  overflow: hidden;
+  color: #fff;
 }
 .well {
   margin: 12px;
   border: 2px solid black;
-  color: #000;
+  /*color: #000;*/
 }
 .day {
   float: left;
   background-color: #f0f5f5;
+  /*width: 100%;*/
   margin: 12px;
   padding: 8px 8px 8px 8px;
   border-radius: 8px;
   border: 2px solid black;
-  /*font-family: sans-serif;*/
-  color: #000;
+  /*color: #000;*/
 }
 .weekday {
   font-weight: bold;
@@ -65,14 +65,14 @@ button {
 #wikipedia-project {
   text-align: center;
 }
-.panel-body .project {
-  height: 620px;
-}
 h4.day4-2 {
   text-align: center;
   font-weight: bold;
   text-decoration: underline;
   text-decoration-color: #004d3b;
+}
+.wednesday {
+  text-align: center;
 }
 #tuesday-project {
   text-align: center;
